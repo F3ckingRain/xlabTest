@@ -1,0 +1,43 @@
+.titleBar {
+  padding: 16px 32px;
+  background-color: #4F27BF;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 700;
+  &__logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 24px;
+  }
+  &__user {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 16px;
+  }
+  &__btn {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    background: none;
+    border: none;
+    width: 48px;
+    height: 48px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+}
+
+.settingsBtn {
+  background: url("../../Assets/Images/titlebarLogo.svg") no-repeat;
+}
+.userBtn {
+  background: url("../../Assets/Images/userLogo.svg") no-repeat;
+}

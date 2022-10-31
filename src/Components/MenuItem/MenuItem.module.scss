@@ -1,0 +1,105 @@
+
+.menuItem {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  gap: 16px;
+}
+.settingsItem {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  gap: 32px;
+  &__container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+    justify-content: space-between;
+  }
+  &__title {
+    display: flex;
+    height: 32px;
+    align-items: center;
+    padding-left: 48px;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 600;
+    white-space: pre-wrap;
+  }
+  &__btn {
+    width: 15px;
+    height: 15px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url("../../Assets/Images/settingsToggleLogo.svg") no-repeat;
+    cursor: pointer;
+  }
+  &__active {
+    rotate: 180deg;
+  }
+  &__items {
+    padding-left: 32px;
+  }
+  &__hide {
+    display: none;
+  }
+}
+.link {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding-left: 48px;
+  height: 32px;
+  text-decoration: none;
+  color: #000;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 600;
+  position: relative;
+}
+.active {
+  &:after {
+    width: 6px;
+    height: 37px;
+    border-radius: 5px;
+    background: #4F27BF;
+    position: absolute;
+    right: -36px;
+    content: '';
+  }
+}
+.home {
+  background: url("../../Assets/Images/logoHome.svg") no-repeat;
+}
+.address {
+  background: url("../../Assets/Images/searchLogo.svg") no-repeat
+}
+.table {
+  background: url("../../Assets/Images/tableLogo.svg") no-repeat
+}
+.calendar {
+  background: url("../../Assets/Images/calendarLogo.svg") no-repeat
+}
+.maps {
+  background: url("../../Assets/Images/mapsLogo.svg") no-repeat;
+}
+.widgets {
+  background: url("../../Assets/Images/widgetsLogo.svg") no-repeat
+}
+.settings {
+  height: 34px;
+  background: url("../../Assets/Images/settingsLogo.svg") no-repeat
+}
+.exit {
+  background: url("../../Assets/Images/exitLogo.svg") no-repeat
+}
+.profile {
+  background: url("../../Assets/Images/profileLogo.svg") no-repeat;
+}
+.finance {
+  background: url("../../Assets/Images/financeLogo.svg") no-repeat;
+}

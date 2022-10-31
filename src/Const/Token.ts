@@ -1,0 +1,1 @@
+export const TOKEN = '2b7ad70cf01a1e0fa3b7366259494429f32769fe'  // Сделать через env
